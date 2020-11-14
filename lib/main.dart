@@ -34,27 +34,42 @@ class HomePage extends StatelessWidget {
         child: Column(
           children: <Widget>[
             FlatButton(
-                child: const Text('Key'),
+                child: const Text(
+                  'Key',
+                  style: TextStyle(fontSize: 22),
+                ),
                 onPressed: () {
                   FirebaseCrashlytics.instance.setCustomKey('foo', 'bar');
                 }),
             FlatButton(
-                child: const Text('Log'),
+                child: const Text(
+                  'Log',
+                  style: TextStyle(fontSize: 22),
+                ),
                 onPressed: () {
                   FirebaseCrashlytics.instance.log('Simulated crash');
                 }),
             FlatButton(
-                child: const Text('Crash'),
+                child: const Text(
+                  'Crash',
+                  style: TextStyle(fontSize: 22),
+                ),
                 onPressed: () {
                   FirebaseCrashlytics.instance.crash();
                 }),
             FlatButton(
-                child: const Text('Throw Error'),
+                child: const Text(
+                  'Throw Error',
+                  style: TextStyle(fontSize: 22),
+                ),
                 onPressed: () {
                   throw StateError('Uncaught error thrown by app.');
                 }),
             FlatButton(
-                child: const Text('Async out of bounds'),
+                child: const Text(
+                  'Async out of bounds',
+                  style: TextStyle(fontSize: 22),
+                ),
                 onPressed: () {
                   Future<void>.delayed(const Duration(seconds: 2), () {
                     final List<int> list = <int>[];
@@ -62,7 +77,10 @@ class HomePage extends StatelessWidget {
                   });
                 }),
             FlatButton(
-              child: const Text('Record Error'),
+              child: const Text(
+                'Record Error',
+                style: TextStyle(fontSize: 22),
+              ),
               onPressed: () {
                 try {
                   throw 'error_example';
