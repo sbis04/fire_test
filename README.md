@@ -2,6 +2,8 @@
 
 A sample app to test [Firebase Crashlytics](https://firebase.google.com/docs/crashlytics) on iOS.
 
+> Check out the article regarding this, [Practical guide: Flutter + Firebase + Codemagic (for iOS)](https://blog.codemagic.io/practical-guide-flutter-firebase-codemagic/)
+
 ![](https://github.com/sbis04/fire_test/raw/master/screenshot/crashlytics.png)
 
 ## Plugins
