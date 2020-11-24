@@ -1,16 +1,9 @@
-# fire_test
+# Fire Test
 
-A new Flutter project.
+A sample app to test [Firebase Crashlytics](https://firebase.google.com/docs/crashlytics) on iOS.
 
-## Getting Started
+<p align="center">
+  <img width=350 src="https://github.com/sbis04/fire_test/raw/master/screenshot/fire_test.png" alt="Fire Test" />
+</p>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
